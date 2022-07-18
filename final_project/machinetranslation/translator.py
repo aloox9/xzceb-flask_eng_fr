@@ -26,7 +26,7 @@ def englishToFrench(english_text):
     return french_text
 
 def frenchToEnglish(french_text):
-    ''' Translate French to Enflish '''
+    ''' Translate French to English '''
     english_text = language_translator.translate(
     text = french_text,
     model_id = 'fr-en').get_result()
